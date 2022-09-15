@@ -1,0 +1,10 @@
+td:hover {
+  background-color: blue;
+}
+table, th, td {
+  border:1px solid brown;
+  text-align: center;
+}
+td:hover {
+    background-color: white;
+}
