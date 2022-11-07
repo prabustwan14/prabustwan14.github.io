@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulir RESPONSIVE</title>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./punyaprabu.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header"> 
+			<img src="../img/kopsurat.png" width="100%">
+	</div>
+	<h1>Formulir Pendaftaran Mahasiswa Baru</h1>
+	<label for="petunjuk" class="petunjuk">PETUNJUK PENGISIAN :</h3>
+	<ol>
+		<li>Isilah data dengan cermat, teliti dan benar</li>
+		<li>Isilah dengan Huruf Kapital</li>
+		<li>Salah penulisan pada pengisian formulir ini akan berakibat fatal pada penulisan data Anda di ijazah</li>
+	</ol>
+	<div class="container2">
+		<h2 class="judulform">DATA YANG PERLU DI ISI</h2>
+		<div>
+			<form action="">
+		<div>
+			<label for="nomor">1. Nomor Pendaftaran</label>
+			<input class="ketikan" type="number" id="nomor" placeholder="Ketikan Nomor Pendaftaran"/>
+            </div>
+            <div>
+              <label for="nama">2. Nama Lengkap</label>
+              <input class="ketikan" type="text" id="nama" placeholder="Ketikan Nama Lengkap"/>
+            </div>
+            <div>
+              <label for="tanggalujian">3. Tanggal Ujian</label>
+			  <input class="ketikan" type="date" id="tanggalujian"/>
+            </div>
+            <div>
+              <label for="gender">4. Jenis Kelamin</label>
+              <select name="gender" id="gender">
+                <option value="Pria">Pria</option>
+                <option value="Wanita">Wanita</option>
+              </select>
+            </div>
+            <div>
+              <label for="jenjang">5. Jenjang</label>
+              <select name="jenjang" id="jenjang">
+                <option value="Diploma 3">D3</option>
+                <option value="Strata 1">S1</option>
+              </select>
+            </div>
+            <div>
+              <label for="prodi">6. Program Studi</label>
+              <select name="prodi" id="prodi">
+                <option value="Komputerisasi Akuntansi">Komputerisasi Akuntansi</option>
+                <option value="Manajemen Informatika">Manajemen Informatika</option>
+				<option value="Teknik Informatika">Teknik Informatika</option>
+				<option value="Sistem Informasi">Sistem Informasi</option>
+				<option value="Rekayasa Perangkat Lunak">Rekayasa Perangkat Lunak</option>
+              </select>
+            </div>
+            <div>
+              <label for="kelas">7. Kelas</label>
+              <select name="kelas" id="kelas">
+                <option value="Karyawan">Karyawan</option>
+                <option value="Reguler">Reguler</option>
+				<option value="KIP">KIP</option>
+              </select>
+            </div>
+            <div>
+              <label for="waktu kuliah">8. Waktu Kuliah</label>
+              <select name="waktu kuliah" id="waktu kuliah">
+                <option value="Pagi">Pagi</option>
+                <option value="Sore">Sore</option>
+                <option value="Malam">Malam</option>
+              </select>
+            </div>
+            <div>
+              <label for="ukuran almamater">9. Ukuran Jas Almamater</label>
+              <select name="ukuran almamater" id="ukuran jas almamater">
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+                <option value="Extra Large">Extra Large</option>
+              </select>
+            </div>
+            <div>
+              <label for="sistem pembayaran">10. Sistem Pembayaran </label><br/>
+              <select name="sistem pembayaran" id="sistem pembayaran">
+                <option value="Angsuran">Angsuran</option>
+                <option value="Tunai">Tunai</option>
+				<option value="Beasiswa">Beasiswa</option>
+              </select>
+            </div>
+            <h2 class="judulform">DATA PRIBADI</h2>
+            <div>
+              <label for="agama">11. Agama</label><br/>
+              <select name="agama" id="agama">
+                <option value="Islam">Islam</option>
+                <option value="Kristen Protestan">Kristen Protestan</option>
+                <option value="Katolik">Katolik</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Buddha">Buddha</option>
+                <option value="Konghucu">Konghucu</option>
+              </select>
+            </div>
+            <div>
+              <label for="ttl">12. Tempat, Tanggal Lahir</label>
+              <input class="ketikan" type="text" id="tempat" placeholder="Ketikan Tempat Lahir"/>
+              <input class="ketikan" type="date" id="ttl"/>
+            </div>
+            <div>
+              <label for="alamat">13. Alamat Lengkap</label>
+              <input class="ketikan" type="text" id="alamat" placeholder="Ketikan Alamat Lengkap"/>
+            </div>
+            <div>
+              <label for="telepon">14. Nomor Telepon</label>
+              <input class="ketikan" type="tel" id="telepon" placeholder="Ketikan Nomor Telepon"/>
+            </div>
+            <div>
+              <label for="kwg">15. Kewarganegaraan</label>
+              <select name="kwg" id="kwg">
+                <option value="WNI">WNI</option>
+                <option value="WNA">WNA</option>
+              </select>
+            </div>
+            <div>
+              <label for="goldar">16. Golongan Darah</label>
+              <select name="goldar" id="goldar">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="AB">AB</option>
+                <option value="O">O</option>
+              </select>
+            </div>
+            <div>
+              <label for="namaortu">17. Nama Orang Tua/Wali</label>
+              <input class="ketikan" type="text" id="namaortu" placeholder="Ketikan Nama Orang Tua/Wali"/>
+            </div>
+            <div>
+              <label for="pekerjaan">18. Pekerjaan Orang Tua/Wali</label>
+              <select name="pekerjaan" id="pekerjaan">
+                <option value="PNS/TNI/POLRI">PNS/TNI/POLRI</option>
+                <option value="Buruh">Buruh</option>
+                <option value="Wiraswasta">Wiraswasta</option>
+                <option value="Lain-Lain">Lain-Lain</option>
+              </select>
+            </div>
+            <h2 class="judulform">PENDIDIKAN TERAKHIR</h2>
+            <div>
+              <label for="asalpendidikan">19. Asal SMA/SMK</label>
+              <input class="ketikan" type="text" id="asalpendidikan" placeholder="Ketikan Asal Pendidikan"/>
+            </div>
+            <div>
+              <label for="status sekolah">20. Status Sekolah</label>
+              <select name="status sekolah" id="pekerjaan">
+                <option value="Negeri">Negeri</option>
+                <option value="Swasta">Swasta</option>
+                <option value="Luar Negeri">Luar Negeri</option>
+              </select>
+            </div>
+            <div>
+              <label for="jurusan">21. Jurusan</label>
+              <input class="ketikan" type="text" id="jurusan" placeholder="Ketikan Jurusan"/>
+            </div>
+            <div>
+              <label for="nomorijazah">22. Nomor Ijazah SMA/SMK</label>
+              <input class="ketikan" type="number" id="nomorijazah" placeholder="Ketikan Nomor Ijazah"/>
+            </div>
+            <div>
+              <label for="tanggal lulus">23. Tanggal Lulus</label>
+              <input class="ketikan" type="date" id="tanggal lulus"/>
+            </div>
+            <div>
+              <label for="nilai nem">24. Nilai NEM Ijazah</label>
+              <input class="ketikan" type="number" id="nilai nem" placeholder="Ketikan Nilai NEM"/>
+            </div>
+			<div>
+				<label for="ttd">Upload Tanda Tangan Digital</label>
+				<input class="ketikan" type="file" id="ttd">
+			</div>
+			<div>
+		<button>
+            <a href="../index.html">Back To Pages</a></button>
+        <button>
+            <a href="../sendp03form/KirimForm.html">Send</button>
+	</form>
+</body>
+</html>
